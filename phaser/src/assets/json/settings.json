@@ -1,0 +1,28 @@
+{
+  "game": {
+    "debugMode": true,
+    "debugLog": false,
+    "gameDuration": 30,
+    "pancakeSpeed": 800,
+    "pancakeVelocityY": 2.5,
+    "pointsPerPancake": 10,
+    "pancakeBodySleepThreshold": 40,
+    "scoreThreshold": 30,
+    "scoreThresholdMultiplier": 30,
+    "maxScore": 100,
+    "speedMultiplier": 1.3,
+    "velocityMultiplier": 1.1
+  },
+  "audio": {
+    "muteAudio": false,
+    "masterVolume": 1.0,
+    "musicVolume": 1.0,
+    "soundEffects": 1.0
+  },
+  "api": {
+    "IP": "",
+    "frontURL": "https://assisifunday.sg",
+    "backURL": "v1/gameapi/",
+    "port": ""
+  }
+}

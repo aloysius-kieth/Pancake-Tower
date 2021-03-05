@@ -1,0 +1,51 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"plate": {
+		"type": "fromPhysicsEditor",
+		"label": "plate",
+		"isStatic": true,
+		"density": 50,
+		"restitution": 0,
+		"friction": 1,
+		"frictionAir": 0.01,
+		"frictionStatic": 1,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":905, "y":267 }, { "x":905, "y":171 }, { "x":233, "y":171 }, { "x":233, "y":262 } ]
+				]
+			}
+		]
+	},
+	"pancake": {
+		"type": "fromPhysicsEditor",
+		"label": "pancake",
+		"isStatic": false,
+		"density": 0.0,
+		"restitution": 0.05,
+		"friction": 1,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 1.0,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":336, "y":277 }, { "x":51, "y":277 }, { "x":51, "y":313 }, { "x":335, "y":313 } ]
+				]
+			}
+		]
+	}
+}

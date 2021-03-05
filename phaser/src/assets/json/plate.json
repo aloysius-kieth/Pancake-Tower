@@ -1,0 +1,27 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"plate": {
+		"type": "fromPhysicsEditor",
+		"label": "plate",
+		"isStatic": true,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 1.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 1,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":332, "y":45 }, { "x":0, "y":45 }, { "x":0, "y":80 }, { "x":331, "y":86 } ]
+				]
+			}
+		]
+	}
+}
