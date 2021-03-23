@@ -1,32 +1,18 @@
-## How To Use
+# Pancake Tower
+[Demo Link](https://pancake-tower.netlify.app)
 
-To clone and run this project, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## About
+A pancake stacking microsite game for Assisi Hospice's interactive virtual carnival.
 
-```bash
-# Clone this repository
-$ git clone --depth 1 https://github.com/trinaxproject/project-2021-Merck-CatchAndWinGame.git {your-project-name}
+Tech Stack:
+* JavaScript
+* Phaser
+* HTML5
+* Webpack
 
-# Go into the repository
-$ cd {your-project-name}
-
-# Install dependencies
-$ npm install
-
-# Start the local development server (on port 8080)
-$ npm start
-
-# Ready for production?
-# Build the production ready code to the /dist folder
-$ npm run build
-
-# Play your production ready game in the browser
-$ npm run serve
-```
-
-Change the **gameName** in /webpack/webpack.common.js.
-
-All your game code lies inside the **/src/scripts** folder. All assets need to be inside the **/src/assets** folder in order to get copied to /dist while creating the production build. Do not change the name of the index.html and game.ts files.
-
-## Demo
-
-https://pancake-tower.netlify.app
+## Screenshots
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/76507555/112201684-777c4200-8c4b-11eb-8d59-c7162d886b68.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/76507555/112201922-bf9b6480-8c4b-11eb-82af-efaf3bfaf368.png" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/76507555/112202046-e8235e80-8c4b-11eb-88ca-8b4a5525c191.png" width="300" />
+</p>
