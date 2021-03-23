@@ -4,7 +4,7 @@
 ## About
 A pancake stacking microsite game for Assisi Hospice's interactive virtual carnival.
 
-Tech Stack:
+:desktop_computer: Tech Stack:
 * JavaScript
 * Phaser
 * HTML5
